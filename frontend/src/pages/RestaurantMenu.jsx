@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import './RestaurantMenu.css';
 export default function RestaurantMenu() {
   const { id } = useParams();
+  const navigate = useNavigate();
   const [menu, setMenu] = useState([]);
   const [selected, setSelected] = useState({}); // {itemId: quantity}
   const [msg, setMsg] = useState('');
@@ -33,7 +34,11 @@ export default function RestaurantMenu() {
       body: JSON.stringify({ restaurantId: id, items })
     });
     const data = await res.json();
-    setMsg(data.msg);
+    if (res.ok) {
+      navigate('/cart');
+    } else {
+      setMsg(data.msg || 'Order failed');
+    }
     setSelected({});
   };
 

@@ -12,6 +12,7 @@ import MyOrders from './pages/MyOrders';
 import RestaurantDashboard from './pages/RestaurantDashboard';
 import AddFoodItem from './pages/AddFoodItem';
 import ViewOrders from './pages/ViewOrders';
+import Cart from './pages/Cart';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/restaurant/dashboard" element={<RestaurantDashboard />} />
         <Route path="/restaurant/add-food" element={<AddFoodItem />} />
         <Route path="/restaurant/orders" element={<ViewOrders />} />
+        <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>

@@ -21,10 +21,10 @@ const storage = multer.diskStorage({
 });
 const upload = multer({ storage });
 
-// Get all restaurants owned by the logged-in owner
-router.get('/', authenticate, authorize(['owner']), async (req, res) => {
+// Get all restaurants (public)
+router.get('/', async (req, res) => {
   try {
-    const restaurants = await Restaurant.find({ owner: req.user.id });
+    const restaurants = await Restaurant.find();
     res.json(restaurants);
   } catch (err) {
     res.status(500).json({ msg: 'Server error', error: err.message });
