@@ -1,0 +1,11 @@
+ /* UserDashboard.css */
+.user-dashboard {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(90deg, #e0c3fc 0%, #8ec5fc 100%);
+    border-radius: 12px;
+    margin-bottom: 2rem;
+  }
+  .user-dashboard h2 {
+    color: #5f27cd;
+  }

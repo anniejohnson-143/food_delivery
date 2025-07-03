@@ -1,0 +1,29 @@
+/* RestaurantList.css */
+.restaurant-list {
+  padding: 2rem 0;
+}
+.restaurant-list h2 {
+  color: #00b894;
+  margin-bottom: 1.5rem;
+}
+.restaurant-card {
+  background: #eafaf1;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.restaurant-card h3 {
+  color: #00b894;
+  margin-bottom: 0.5rem;
+}
+.restaurant-card button {
+  background: #00b894;
+  margin-top: 0.5rem;
+}
+.restaurant-card button:hover {
+  background: #00897b;
+} 

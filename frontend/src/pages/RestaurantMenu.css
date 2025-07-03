@@ -1,0 +1,52 @@
+/* RestaurantMenu.css */
+.menu-list {
+  padding: 2rem 0;
+}
+.menu-list h2 {
+  color: #ff9800;
+  margin-bottom: 1.5rem;
+}
+.menu-item {
+  background: #fffbe7;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.menu-item img {
+  border-radius: 8px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid #ff9800;
+}
+.menu-item-details {
+  flex: 1;
+}
+.menu-item-details h3 {
+  color: #ff9800;
+  margin-bottom: 0.5rem;
+}
+.menu-item-details label {
+  font-weight: 500;
+}
+.menu-item-details input[type='number'] {
+  width: 60px;
+  margin-left: 0.5rem;
+}
+.menu-total {
+  font-size: 1.2rem;
+  color: #ff9800;
+  margin-top: 1rem;
+  text-align: right;
+}
+.menu-list button {
+  background: #ff9800;
+  margin-top: 1rem;
+}
+.menu-list button:hover {
+  background: #e65100;
+} 

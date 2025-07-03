@@ -1,0 +1,20 @@
+/* Register.css */
+.register-form {
+  max-width: 400px;
+  margin: 2rem auto;
+  background: #f7faff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+.register-form h2 {
+  color: #0077b6;
+  margin-bottom: 1.5rem;
+}
+.register-form button {
+  background: #0077b6;
+  transition: background 0.2s;
+}
+.register-form button:hover {
+  background: #023e8a;
+} 

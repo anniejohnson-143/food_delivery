@@ -1,0 +1,21 @@
+/* About.css */
+.about-container {
+    max-width: 700px;
+    margin: 2rem auto;
+    background: #fffde7;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  }
+  .about-container h2 {
+    color: #ffb300;
+    margin-bottom: 1rem;
+  }
+  .about-container p {
+    color: #444;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  .about-container strong {
+    color: #ffb300;
+  }

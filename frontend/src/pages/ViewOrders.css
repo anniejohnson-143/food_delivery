@@ -1,0 +1,25 @@
+ /* ViewOrders.css */
+.vieworders-list {
+    padding: 2rem 0;
+  }
+  .vieworders-list h2 {
+    color: #e17055;
+    margin-bottom: 1.5rem;
+  }
+  .vieworders-card {
+    background: #fff0e6;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+  }
+  .vieworders-card h3 {
+    color: #e17055;
+    margin-bottom: 0.5rem;
+  }
+  .vieworders-card ul {
+    margin: 0.5rem 0 0 1.5rem;
+  }
+  .vieworders-card p {
+    margin: 0.5rem 0;
+  }

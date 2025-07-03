@@ -1,0 +1,20 @@
+ /* Login.css */
+.login-form {
+    max-width: 400px;
+    margin: 2rem auto;
+    background: #fff0f6;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  }
+  .login-form h2 {
+    color: #d72660;
+    margin-bottom: 1.5rem;
+  }
+  .login-form button {
+    background: #d72660;
+    transition: background 0.2s;
+  }
+  .login-form button:hover {
+    background: #a61c3c;
+  }

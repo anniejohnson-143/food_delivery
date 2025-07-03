@@ -1,0 +1,25 @@
+ /* MyOrders.css */
+.myorders-list {
+    padding: 2rem 0;
+  }
+  .myorders-list h2 {
+    color: #0097e6;
+    margin-bottom: 1.5rem;
+  }
+  .order-card {
+    background: #e6f7ff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+  }
+  .order-card h3 {
+    color: #0097e6;
+    margin-bottom: 0.5rem;
+  }
+  .order-card ul {
+    margin: 0.5rem 0 0 1.5rem;
+  }
+  .order-card p {
+    margin: 0.5rem 0;
+  }
